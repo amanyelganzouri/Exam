@@ -9,6 +9,8 @@ namespace exam_2
         {
             Answer[] stanswer = new Answer[exam.NumberOfQuestions];
 
+
+
             for (int i = 0; i < exam.NumberOfQuestions; i++)
             {
                 var question = exam.Questions[i];
